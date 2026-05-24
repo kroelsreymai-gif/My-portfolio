@@ -43,7 +43,7 @@ export default function Home() {
         <Hero />
         <Marquee />
       </section>
-      <Footer />
+
       {/* Skills */}
       <section id="skills">
         <Skills />
@@ -58,7 +58,7 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
-
+      <Footer />
     </motion.main>
   );
 }
