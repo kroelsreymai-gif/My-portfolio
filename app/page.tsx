@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 // Effects
 import Cursor from "@/components/Cursor";
 import PageLoader from "@/components/PageLoader";
-import PageTransition from "@/components/PageTransition";
+
 import Marquee from "@/components/Marquee";
 import Spotlight from "@/components/Spotlight";
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Global Effects */}
       <Cursor />
-      <PageTransition />
+
       <PageLoader />
       <Spotlight />
       {/* Navigation */}
