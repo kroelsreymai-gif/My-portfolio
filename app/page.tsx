@@ -8,11 +8,11 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-
+import Footer from "@/components/Footer";
 // Effects
 import Cursor from "@/components/Cursor";
 import PageLoader from "@/components/PageLoader";
-import ParticlesBackground from "@/components/ParticlesBackground";
+import PageTransition from "@/components/PageTransition";
 import Marquee from "@/components/Marquee";
 import Spotlight from "@/components/Spotlight";
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Global Effects */}
       <Cursor />
-      <ParticlesBackground />
+      <PageTransition />
       <PageLoader />
       <Spotlight />
       {/* Navigation */}
@@ -43,7 +43,7 @@ export default function Home() {
         <Hero />
         <Marquee />
       </section>
-
+      <Footer />
       {/* Skills */}
       <section id="skills">
         <Skills />

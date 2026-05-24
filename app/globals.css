@@ -153,3 +153,7 @@ body {
   animation:
     gradientMove 6s ease infinite;
 }
+
+* {
+  cursor: none;
+}
