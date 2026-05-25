@@ -40,7 +40,7 @@ export default function Contact() {
             title: "Telegram",
             value: "@Kroel Sreymai",
             icon: <FaTelegram />,
-            link: "https://t.me//Kroel Sreymai",
+            link: "https://t.me//kroel_sreymai",
             color: "text-cyan-400",
         },
     ];
