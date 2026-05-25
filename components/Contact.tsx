@@ -32,7 +32,7 @@ export default function Contact() {
             title: "LinkedIn",
             value: "linkedin.com/in/sreymai kroel",
             icon: <FaLinkedin />,
-            link: "https://linkedin.com/sreymai kroel",
+            link: "https://linkedin.com/sreymai-kroel-79a32b3b3",
             color: "text-blue-500",
         },
 
